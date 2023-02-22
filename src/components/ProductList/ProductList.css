@@ -1,0 +1,12 @@
+.product-list__grid {
+  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 40px;
+}
+
+.product-list__grid .product {
+  width: calc(30.33% - 20px);
+  margin-bottom: 40px;
+}
